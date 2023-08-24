@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style2.css" />
+  <meta charset="UTF-8">
+  <title>Nick Chernogor</title><style>
+    h1, p {
+        font-family: Comic Sans;
+    }
+</style>
+<script>
+    function changeText(element, val) {
+        element.innerHTML = val;
+    }
+</script>
+</head>
+<body>
+    <div class="image_container">
+        <img src="1-5.jpg" alt="Nick giving a presentation">
+    </div>
+    <div class="text_container">
+        <h1>Hello, my name is Nick <span id="lastname" onmouseover="changeText(this, 'ˈt͡ʃʌɹ.nə.gɔɹ')" onmouseout="changeText(this, '<u>Chernogor</u>')"><u>Chernogor</u></span>!</h1> <br><br>
+        <p>Originally from Queens, NY, I'm a junior at <span class="highlighted">Cornell University</span>'s College of Arts and Sciences pursuing a Bachelor of Arts with a double major in <span class="highlighted">Computer Science</span> and <span class="highlighted">Linguistics</span>.
+            My interests lie in exploring the intersection of these two fields, studying computational representations of human language.
+            I'm intersted in applying these interests to a career in <span class="highlighted">software engineering</span>, <span class="highlighted">natural language processing</span>, or <span class="highlighted">data science</span>.<br><br>
+        I do research under Professor <a href="https://www.cs.cornell.edu/~cristian/">Cristian Danescu-Niculescu-Mizil</a> on <span class="highlighted">conversation forecasting</span>, working on predicting antisocial results in online discussions and communicating such predictions to discussion participants in productive ways.<br><br>
+        I spend much of my free time maintaining <a href="https://www.duolingo.com/profile/nckvc">my Duolingo</a> streak (as part of my efforts to learn Ukrainian and Hungarian), reading novels (especially magical realism and Russian classics), painting with watercolors, and going on walks, hikes, or bike rides around gorgeous Ithaca, NY.<br>
+    </div>
+    <div class="text_container" id="contact_container">
+        <p>Contact: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#99;&#56;&#54;&#64;&#99;&#111;&#114;&#110;&#101;&#108;&#108;&#46;&#101;&#100;&#117;">nac86 (at) cornell (dot) edu</a> | <a href="https://www.linkedin.com/in/nicholas-chernogor/">LinkedIn</a></p>
+    </div>
+</body>
+</html>
