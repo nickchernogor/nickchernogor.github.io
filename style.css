@@ -24,14 +24,14 @@ body {
 h1 {
     margin: 3%;
     float: left;
-    font-size: 2em;
+    font-size: 1.75em;
     color: darkslategray;
 }
 
 p {
     margin: 3%;
     float: left;
-    font-size: 1.2em;
+    font-size: 1em;
     color: darkslategray;
 }
 
