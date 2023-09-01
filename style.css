@@ -1,14 +1,39 @@
-/* * {
+* {
   border: 0;
   margin: 0;
   padding: 0;
-  font-family: Helvetica, Arial;
   font-size: 1em;
-} */
-
-body {
-  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-size: 1.25em;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: rgb(191, 240, 240);
+    text-decoration: underline;
+  }
+
+
 
 .image_container {
     margin: 1%;
@@ -26,6 +51,7 @@ h1 {
     float: left;
     font-size: 2em;
     color: darkslategray;
+    font-weight: normal;
 }
 
 p {
