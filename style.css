@@ -27,24 +27,10 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     color: rgb(191, 240, 240);
     text-decoration: underline;
   }
-
-
-
-.image_container {
-    margin: 1%;
-    width: 44%;
-    float: left;
-}
-
-.image_container img {
-    width: 100%;
-    border-radius: 3%;
-}
 
 h1 {
     margin: 3%;
@@ -57,30 +43,80 @@ h1 {
 p {
     margin: 3%;
     float: left;
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: darkslategray;
 }
 
-a {
-    color:darkcyan;
+.blue {
+  background-color:aliceblue;
 }
 
-.text_container {
-    float: right;
-    background-color:aliceblue;
-    margin: 1%;
-    width: 52%;
-    border-radius: 15px;
-} 
+.tan {
+  background-color: oldlace;
+}
+
+.blue a {
+  color:darkcyan;
+  text-decoration: underline;
+}
+
+.tan a {
+  color:indianred;
+  text-decoration: underline;
+}
+
 
 #lastname {
     color: darkcyan;
 }
 
-.highlighted {
+.highlighted_1 {
     border-radius: 5px;
     background-color:rgb(191, 240, 240);
     color: darkslategray;
 } 
 
+.highlighted_2 {
+  border-radius: 5px;
+  background-color:navajowhite;
+  color: darkslategray;
+} 
 
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container .text_container {
+  flex: 1;
+  padding: 20px;
+}
+
+.container .image_container {
+  flex: 1;
+  padding: 20px;
+}
+
+.container:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+
+  .container:nth-child(odd) {
+      flex-direction: column;
+  }
+}
