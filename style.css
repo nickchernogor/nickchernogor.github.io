@@ -87,24 +87,24 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
   border-bottom: 1px solid #ddd;
 }
 
 .container img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 10px;
 }
 
 .container .text_container {
   flex: 1;
-  padding: 20px;
+  padding: 25px;
 }
 
 .container .image_container {
   flex: 1;
-  padding: 20px;
+  padding: 25px;
 }
 
 .container:nth-child(odd) {
