@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="style.css" />
   <meta charset="UTF-8">
   <title>Nick Chernogor</title>
 <script>
@@ -16,18 +16,52 @@
         <li><a class="active"  href="index.html">Home</a></li>
     </ul>
 <body>
-    <div class="image_container">
-        <img src="1-5.jpg" alt="Nick giving a presentation">
+    <div class="container">
+        <div class="image_container">
+            <img src="1-5.jpg">
+        </div>
+        <div class="text_container blue">
+            <h1>Hello, my name is Nick <span id="lastname" onmouseover="changeText(this, 'ˈt͡ʃʌɹ.nə.gɔɹ')" onmouseout="changeText(this, '<u>Chernogor</u>')"><u>Chernogor</u></span>!</h1>
+            <p>Based in New York City, I'm a recent graduate of <span class="highlighted_1">Cornell University</span>'s College of Arts and Sciences, having earned a Bachelor of Arts with a double major in <span class="highlighted_1">Computer Science</span> and <span class="highlighted_1">Linguistics</span>.<br><br>
+                My interests lie in the intersection of these two fields, exploring computational representations of human language.
+                I am also passionate about the use of technology for social impact.
+                I hope to apply these interests to a career in <span class="highlighted_1">software engineering</span>.<br><br>
+        </div>
+
     </div>
-    <div class="text_container">
-        <h1>Hello, my name is Nick <span id="lastname" onmouseover="changeText(this, 'ˈt͡ʃʌɹ.nə.gɔɹ')" onmouseout="changeText(this, '<u>Chernogor</u>')"><u>Chernogor</u></span>!</h1>
-        <p>Originally from Queens, NY, I'm a junior at <span class="highlighted">Cornell University</span>'s College of Arts and Sciences pursuing a Bachelor of Arts with a double major in <span class="highlighted">Computer Science</span> and <span class="highlighted">Linguistics</span>.
-            My interests lie in the intersection of these two fields, exploring computational representations of human language.
-            I hope to apply these interests to a career in <span class="highlighted">software engineering</span>, <span class="highlighted">natural language processing</span>, or <span class="highlighted">data science</span>.<br><br>
-        I do research under Professor <a href="https://www.cs.cornell.edu/~cristian/">Cristian Danescu-Niculescu-Mizil</a> on <span class="highlighted">conversation analysis and forecasting</span>, working on identifying tension in online discussions and predicting antisocial outcomes, as well as communicating such predictions to discussion participants in helpful ways.<br><br>
-        I spend my free time maintaining <a href="https://www.duolingo.com/profile/nckvc">my Duolingo</a> streak (in an effort to learn Ukrainian and Hungarian), reading novels (especially magical realism and Russian classics), painting with watercolors, and going on walks, hikes, or bike rides around gorgeous Ithaca, NY.<br>
+    <div class="container">
+        <div class="image_container">
+            <img src="Intern3-cropped.jpg">
+        </div>
+        <div class="text_container tan">
+            <h1>Work Experience</h1>
+            <p>In the summer of 2024, I worked as a <span class="highlighted_2">Software Engineering Intern</span> on Scholastic's <span class="highlighted_2">Enterprise Content Management System team</span>, where I delivered on stories following <span class="highlighted_2">Agile methodology</span>.
+                In this role, I utilized Java with Spring Boot and Maven and contributed features to a digital asset management service.<br><br>
+                In the spring of 2024, I served as a <span class="highlighted_2">Teaching Assistant</span> for <a href="https://classes.cornell.edu/browse/roster/SP24/class/CS/4300">CS/INFO 4300: Language and Information</a>, individually helping students with Python programming and course concepts including <span class="highlighted_2">information retrieval</span> and <span class="highlighted_2">machine learning</span>, as well as serving as TA advisor for a group of students developing a final project incorporating these concepts.
+        </div>
     </div>
-    <div class="text_container" id="contact_container">
+
+    <div class="container">
+        <div class="image_container">
+            <img src="research_graphic.png">
+        </div>
+        <div class="text_container blue">
+            <h1>Research Experience</h1>
+            <p>From May 2023 until December 2024, I did research under Professor <a href="https://www.cs.cornell.edu/~cristian/">Cristian Danescu-Niculescu-Mizil</a> on <span class="highlighted_1">conversation analysis and forecasting</span>, working on identifying tension in online discussions and predicting antisocial outcomes, as well as communicating such predictions to discussion participants in helpful ways.<br><br>
+                Check out <a href="https://aclanthology.org/2024.naacl-long.414/">our paper</a> or play <a href="https://awry2.infosci.cornell.edu/game/">a web game</a> I created to gather data!<br><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image_container">
+            <img src="watercolor_crop.png">
+        </div>
+        <div class="text_container tan">
+            <h1>More about me</h1>
+            <p>Outside of software engineering, I spend my free time maintaining <a href="https://www.duolingo.com/profile/nckvc">my Duolingo</a> streak (in an effort to learn Hungarian and Ukrainian), reading novels (especially magical realism and Russian classics), traveling, working out, and painting with watercolors.<br>
+        </div>
+    </div>
+    <div class="text_container blue" id="contact_container">
         <p>Contact: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#99;&#56;&#54;&#64;&#99;&#111;&#114;&#110;&#101;&#108;&#108;&#46;&#101;&#100;&#117;">nac86 (at) cornell (dot) edu</a> | <a href="https://www.linkedin.com/in/nicholas-chernogor/">LinkedIn</a></p>
     </div>
 </body>
